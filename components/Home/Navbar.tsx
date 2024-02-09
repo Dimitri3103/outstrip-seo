@@ -30,7 +30,7 @@ const LoginButton = styled(Button)(({ theme }) => ({
     "&:hover": { background: "#F7F7FB" },
 }));
 const SignUpButton = styled(Button)(({ theme }) => ({
-    width: "170px",
+    width: "200px",
     height: "50px",
     background: "#9372F1",
     textTransform: "none",
