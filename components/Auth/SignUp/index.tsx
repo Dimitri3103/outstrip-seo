@@ -365,7 +365,7 @@ export default function SignUpContainer() {
                                             checkedIcon={<BpCheckedIcon />}
                                             icon={<BpIcon />}
                                         />}
-                                    label="I have read and accept the Terms of service"
+                                    label="J'ai lu et accepté les conditions d'utilisation"
                                     sx={{
                                         '& .MuiFormControlLabel-label': {
                                             fontSize: { xs: "12px", sm: "14px", md: "16px" },
