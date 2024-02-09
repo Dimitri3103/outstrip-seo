@@ -737,7 +737,7 @@ export default function Main() {
                                 <Box sx={{ display: { xs: "flex" }, justifyContent: "center", alignItems: "center" }}>
                                     <img
                                         alt="site_img"
-                                        src="http://localhost:8005/media/screenshot.png"
+                                        src="https://api.tenteeglobal.com/seo-toolbox/media/screenshot.png"
                                         style={AuthImgStyle}
                                     />
                                 </Box>
