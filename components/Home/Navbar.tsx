@@ -231,9 +231,9 @@ export default function Navbar() {
                                         </MenuItem>
                                     </Link>
 
-                                    <Link href="/auth/sign-up">
+                                    <Link href="https://outstrip.tech/contactez-nous/">
                                         <MenuItem>
-                                            <SignUpButtonResp>Inscription</SignUpButtonResp>
+                                            <SignUpButtonResp>Contactez-nous</SignUpButtonResp>
                                         </MenuItem>
                                     </Link>
                                 </>
@@ -361,9 +361,9 @@ export default function Navbar() {
                                 &nbsp;
                                 &nbsp;
                                 &nbsp;
-                                <Link href="/auth/sign-up">
+                                <Link href="https://outstrip.tech/contactez-nous/">
                                     <SignUpButton>
-                                        Inscription
+                                        Contactez-nous
                                     </SignUpButton>
                                 </Link>
                             </Box>

@@ -13,55 +13,55 @@ export default function PrivacyBody() {
                 <Box sx={{ justifyContent: "center", width: { xs: "80%", md: "60%" } }}>
 
 
-                    <Title>1. WHAT THIS PRIVACY POLICY COVERS</Title>
+                    <Title>1. CE QUE COUVRE CETTE POLITIQUE DE CONFIDENTIALITÉ</Title>
                     <br />
                     <Text>
-                        Here&apos;s how Outstrip SEO handles your personal information:
+                        Voici comment Outstrip SEO gère vos informations personnelles:
                     </Text>
                     <Text>
-                        This policy explains how we treat the information we collect and receive about you, including details about your past use of our services.
-                    </Text>
-                    <br />
-                    <Text>
-                        What kind of information do we collect?
-                    </Text>
-                    <Text>
-                        We collect things like your first name, last name and email address, but only if you choose to share them with us. This information isn&apos;t publicly available elsewhere.
+                        Cette politique explique comment nous traitons les informations que nous collectons et recevons à votre sujet, y compris les détails sur votre utilisation passée de nos services.
                     </Text>
                     <br />
                     <Text>
-                        What this policy doesn&apos;t cover?
+                        Quel genre d&apos;informations rassemblons-nous?
                     </Text>
                     <Text>
-                        This policy doesn&apos;t apply to other companies or people not connected to Outstrip SEO.
-                    </Text>
-                    <br />
-                    <Title>2. THE INFORMATION COLLECTED</Title>
-                    <br />
-                    <Text>
-                        What information does Outstrip SEO collect?
-                    </Text>
-                    <Text>
-                        At Outstrip SEO, we only collect personal information when you give us the go-ahead. This usually happens when you sign up for things like our surveys, newsletters, or other cool features we offer.
-                    </Text>
-                    <Text>
-                        The information we might collect could include things like your first name, last name and email address (but hey, that&apos;s not all - that&apos;s just an example!).
-                    </Text>
-                    <br />
-                    <Title>3. HOW PERSONAL INFORMATION MAY BE USED</Title>
-                    <br />
-                    <Text>
-                        If you share your info, you might get updates from us or our partners about new features, offers, or just cool stuff we think you&apos;d dig.
+                        Nous collectons des éléments tels que votre prénom, votre nom et votre adresse e-mail, mais uniquement si vous choisissez de les partager avec nous. Ces informations ne sont pas accessibles au public ailleurs.
                     </Text>
                     <br />
                     <Text>
-                        Users can always contact us via <OutstripLink>outstrip.tech@gmail.com</OutstripLink> and request to remove their information from all distribution lists.
+                        Qu&apos;est-ce que cette police ne couvre pas?
+                    </Text>
+                    <Text>
+                        Cette politique ne s&apos;applique pas aux autres sociétés ou personnes non connectées à Outstrip SEO.
                     </Text>
                     <br />
-                    <Title>4. HOW PRIVATE INFORMATION IS PROTECTED, CHANGED AND UPDATED.</Title>
+                    <Title>2. LES INFORMATIONS COLLECTÉES</Title>
                     <br />
                     <Text>
-                        Account information and deletion of personal identifiable information will be executed upon user request.
+                        Quelles informations Outstrip SEO collecte-t-il ?
+                    </Text>
+                    <Text>
+                        Chez Outstrip SEO, nous ne collectons des informations personnelles que lorsque vous nous donnez le feu vert. Cela se produit généralement lorsque vous vous inscrivez à des éléments tels que nos enquêtes, nos newsletters ou d&apos;autres fonctionnalités intéressantes que nous proposons.
+                    </Text>
+                    <Text>
+                        Les informations que nous pouvons collecter peuvent inclure des éléments tels que votre prénom, votre nom et votre adresse e-mail (mais bon, ce n&apos;est pas tout, ce n&apos;est qu&apos;un exemple!).
+                    </Text>
+                    <br />
+                    <Title>3. COMMENT LES INFORMATIONS PERSONNELLES PEUVENT ÊTRE UTILISÉES</Title>
+                    <br />
+                    <Text>
+                        Si vous partagez vos informations, vous pourriez recevoir des mises à jour de notre part ou de celles de nos partenaires sur de nouvelles fonctionnalités, offres ou tout simplement des choses intéressantes que nous pensons que vous aimeriez.
+                    </Text>
+                    <br />
+                    <Text>
+                        Les utilisateurs peuvent toujours nous contacter via <OutstripLink>outstrip.tech@gmail.com</OutstripLink> et demander la suppression de leurs informations de toutes les listes de distribution.
+                    </Text>
+                    <br />
+                    <Title>4. COMMENT LES INFORMATIONS PRIVÉES SONT PROTÉGÉES, MODIFIÉES ET MIS À JOUR.</Title>
+                    <br />
+                    <Text>
+                        Les informations sur le compte et la suppression des informations personnelles identifiables seront exécutées à la demande de l’utilisateur.
                     </Text>
                     <br />
 

@@ -40,63 +40,63 @@ export default function TermsBody() {
                 <Box sx={{ justifyContent: "center", width: { xs: "80%", md: "60%" } }}>
 
 
-                    <Title>Last updated: January 31, 2024</Title>
+                    <Title>Dernière mise à jour : 31 janvier 2024</Title>
                     <br />
                     <Text>
-                        Protect yourself and understand our rules - Read our Terms of Service carefully before browsing.
+                        Protégez-vous et comprenez nos règles - Lisez attentivement nos conditions d&apos;utilisation avant de naviguer.
                     </Text>
                     <br />
                     <Text>
-                        Your access to and use of this service depend on your acceptance of these Terms. This includes everyone, whether just browsing or actively using the service.
+                        Votre accès et votre utilisation de ce service dépendent de votre acceptation de ces Conditions. Cela inclut tout le monde, qu&apos;il s&apos;agisse simplement de la navigation ou de l&apos;utilisation active du service.
                     </Text>
                     <br />
                     <Text>
-                        Our Terms outline the rules for using our Service. Please review them carefully. If you don&apos;t agree, you won&apos;t be able to use it.
+                        Nos Conditions décrivent les règles d’utilisation de notre Service. Veuillez les examiner attentivement. Si vous n’êtes pas d’accord, vous ne pourrez pas l’utiliser.
                     </Text>
                     <br />
-                    <Title>Subscriptions</Title>
+                    <Title>Abonnements</Title>
                     <br />
                     <Text>
-                        Upgrade your experience with subscriptions! Pay upfront for monthly or yearly access to exclusive features.
+                        Améliorez votre expérience avec les abonnements! Payez d’avance pour un accès mensuel ou annuel à des fonctionnalités exclusives.
                     </Text>
                     <br />
-                    <Title>Free Trial</Title>
+                    <Title>Essai gratuit</Title>
                     <br />
                     <Text>
-                        Experience Outstrip risk-free for a limited period with our free trial offer.
-                    </Text>
-                    <br />
-                    <Text>
-                        We&apos;re always improving the free trial, so some things might change. If we cancel it, we&apos;ll let you know.
-                    </Text>
-                    <br />
-                    <Title>Accounts</Title>
-                    <br />
-                    <Text>
-                        Join our community! Be 18+, keep your info accurate, and enjoy all the benefits. (We might need to close accounts with incorrect info.)
+                        Découvrez Outstrip sans risque pendant une période limitée grâce à notre offre d’essai gratuit.
                     </Text>
                     <br />
                     <Text>
-                        Heads up! It&apos;s your responsibility to keep your login info secure. Remember, you&apos;re accountable for your account activity.
+                        Nous améliorons constamment l’essai gratuit, certaines choses peuvent donc changer. Si nous l’annulons, nous vous en informerons.
                     </Text>
                     <br />
-                    <Title>Copyright Policy</Title>
+                    <Title>Comptes</Title>
                     <br />
                     <Text>
-                        We protect creators and their work. If you believe someone&apos;s copyright or other rights are being violated, report it to us.
-                    </Text>
-                    <br />
-                    <Text>
-                        If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim via email to outstrip.tech@gmail.com, with the subject line: &quot;Copyright Infringement&quot; and include in your claim a detailed description of the alleged Infringement as detailed below, under &quot;DMCA Notice and Procedure for Copyright Infringement Claims&quot;
+                        Rejoignez notre communauté! Ayez 18 ans et plus, gardez vos informations exactes et profitez de tous les avantages. (Nous devrons peut-être fermer les comptes contenant des informations incorrectes.)
                     </Text>
                     <br />
                     <Text>
-                        We take copyright seriously, but please file claims responsibly. Misusing this process can have consequences.
+                        La tête haute! Il est de votre responsabilité de protéger vos informations de connexion. N’oubliez pas que vous êtes responsable de l’activité de votre compte.
                     </Text>
                     <br />
-                    <Title>Contact Us</Title>
+                    <Title>Politique de droits d’auteur</Title>
                     <br />
-                    <Text>If you have any questions about these Terms, please contact us at</Text>
+                    <Text>
+                        Nous protégeons les créateurs et leur travail. Si vous pensez que les droits d’auteur ou d’autres droits de quelqu’un ont été violés, signalez-le-nous.
+                    </Text>
+                    <br />
+                    <Text>
+                        Si vous êtes titulaire d’un droit d’auteur, ou autorisé en son nom, et que vous pensez que l’œuvre protégée a été copiée d’une manière qui constitue une violation du droit d’auteur, veuillez soumettre votre réclamation par e-mail à outstrip.tech@gmail.com, avec l’objet ligne: &quot;Violation du droit d’auteur&quot; et incluez dans votre réclamation une description détaillée de la violation présumée, comme indiqué ci-dessous, sous « Avis et procédure DMCA pour les réclamations pour violation du droit d’auteur ».
+                    </Text>
+                    <br />
+                    <Text>
+                        Nous prenons le droit d’auteur au sérieux, mais veuillez déposer vos réclamations de manière responsable. Une mauvaise utilisation de ce processus peut avoir des conséquences.
+                    </Text>
+                    <br />
+                    <Title>Contactez-nous</Title>
+                    <br />
+                    <Text>Si vous avez des questions concernant ces Conditions, veuillez nous contacter à</Text>
                     <Text><OutstripLink>outstrip.tech@gmail.com</OutstripLink></Text>
                     <br />
 
