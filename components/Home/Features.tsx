@@ -106,8 +106,8 @@ const FeatureBoxContainer = styled(Box)(({ theme }) => ({
     [theme.breakpoints.up('sm')]: {
         height: "420px",
     },
-    [theme.breakpoints.up('sm')]: {
-        // height: "380px",
+    [theme.breakpoints.up('md')]: {
+        height: "450px",
     },
 
 }));
