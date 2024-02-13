@@ -109,11 +109,10 @@ const FeatureBoxContainer = styled(Box)(({ theme }) => ({
     [theme.breakpoints.up('md')]: {
         height: "435px",
     },
-
 }));
 const StartNowButton = styled(Button)(({ theme }) => ({
     textTransform: "none",
-    width: "50%",
+    width: "100%",
     height: "58px",
     fontSize: "16px",
     background: "#9372F1",
@@ -129,18 +128,6 @@ const StartNowButton = styled(Button)(({ theme }) => ({
     [theme.breakpoints.up('md')]: {
         width: "230px",
         fontSize: "24px",
-    },
-}));
-const ButtonBox = styled(Box)(({ theme }) => ({
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: theme.spacing(2),
-    [theme.breakpoints.up('sm')]: {
-        marginTop: theme.spacing(5),
-    },
-    [theme.breakpoints.up('md')]: {
-        marginTop: theme.spacing(8),
     },
 }));
 
@@ -237,14 +224,14 @@ export default function Features() {
                     </Grid>
                 ))}
 
-                <ButtonBox>
+                <Grid item xs={12} container justifyContent="center" alignItems="center">
                     {user ? null : <Link href="/auth/sign-up/">
                         <StartNowButton>
                             Commencer
                         </StartNowButton>
                     </Link>}
 
-                </ButtonBox>
+                </Grid>
 
 
             </StyledGrid2>
