@@ -10,7 +10,7 @@ import { getCookie } from "cookies-next";
 
 const mutex = new Mutex();
 const baseQuery = fetchBaseQuery({
-    baseUrl: `https://api.tenteeglobal.com/seo-toolbox`,
+    baseUrl: `http://192.168.100.70:8005`,
     prepareHeaders: (headers) => {
         const accessToken = getCookie('tokenSEO');
         if (accessToken) {
