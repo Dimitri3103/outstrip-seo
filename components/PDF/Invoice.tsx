@@ -248,7 +248,7 @@ const MyDocument = (props: any) => {
                     {performance.old_tags == "no issues" ? <Image style={{ width: 20, height: 20 }} src="/check-circle.png" /> : <Image style={{ width: 20, height: 20 }} src="/close-circle.png" />}
                 </View>
             </View>
-            <View style={{ width: '100%', flexDirection: 'row' }}>
+            {/* <View style={{ width: '100%', flexDirection: 'row' }}>
                 <View style={[styles.tbody, styles.tbody2]}>
                     <Text>Test de vitesse de chargement du site</Text>
                 </View>
@@ -258,7 +258,7 @@ const MyDocument = (props: any) => {
                 <View style={styles.tbody}>
                     {performance.load_time < 5 ? <Image style={{ width: 20, height: 20 }} src="/check-circle.png" /> : <Image style={{ width: 20, height: 20 }} src="/close-circle.png" />}
                 </View>
-            </View>
+            </View> */}
         </Fragment>
     );
 

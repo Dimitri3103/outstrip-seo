@@ -273,7 +273,7 @@ export default function Performance(props: any) {
                     </CustomWidthTooltip>
                 </Grid>
             </Grid>
-            <Grid item container xs={12} sx={{ p: 3 }} spacing={2}>
+            {/* <Grid item container xs={12} sx={{ p: 3 }} spacing={2}>
                 <Grid item xs={12} md={4}>
                     <T2>Test de vitesse de chargement du site</T2>
                 </Grid>
@@ -295,7 +295,7 @@ export default function Performance(props: any) {
                         </CustomWidthTooltip>
                     }
                 </Grid>
-            </Grid>
+            </Grid> */}
         </Grid>
     )
 }
