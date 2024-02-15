@@ -267,7 +267,7 @@ export default function AuthContainer() {
                                             checkedIcon={<BpCheckedIcon />}
                                             icon={<BpIcon />}
                                         />}
-                                    label="Stay connected"
+                                    label="Rester connecté"
                                     sx={{
                                         '& .MuiFormControlLabel-label': {
                                             fontSize: { xs: "12px", sm: "14px", md: "16px" },
