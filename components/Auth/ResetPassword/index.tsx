@@ -1,7 +1,7 @@
 "use client";
 
 import React, { ChangeEvent, FormEvent, useState } from 'react'
-import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxLogo, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledLinear, StyledStackLoading, StyledTextfield, SubTitle, Title } from '@/assets/styles/auth';
+import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxLogo, BoxLogoResp, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledImgLogoResp, StyledLinear, StyledStackLoading, StyledTextfield, SubTitle, Title } from '@/assets/styles/auth';
 import { Grid } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -92,6 +92,13 @@ export default function ResetPasswordContainer() {
                                     style={StyledImgLogo}
                                 />
                             </BoxLogo>
+                            <BoxLogoResp>
+                                <Image
+                                    alt="Logo"
+                                    src={Logo}
+                                    style={StyledImgLogoResp}
+                                />
+                            </BoxLogoResp>
                         </Link>
                         <Space1 />
                         <Title>Mot de passe oublié</Title>

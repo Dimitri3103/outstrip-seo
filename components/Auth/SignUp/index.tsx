@@ -1,6 +1,6 @@
 "use client"
 
-import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxLogo, BoxPassword, GoogleButtonAuth, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledLinear, StyledStackLoading, StyledTextfield, Title } from '@/assets/styles/auth'
+import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxLogo, BoxLogoResp, BoxPassword, GoogleButtonAuth, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledImgLogoResp, StyledLinear, StyledStackLoading, StyledTextfield, Title } from '@/assets/styles/auth'
 import { Box, Checkbox, FormControlLabel, FormGroup, Grid, IconButton, TextField, styled } from '@mui/material'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -20,12 +20,8 @@ import { FcGoogle } from 'react-icons/fc'
 
 const SpaceInputs2 = styled('span')(({ theme }) => ({
     display: "flex",
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-        marginTop: theme.spacing(2),
-        marginBottom: theme.spacing(2),
-    },
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1),
 }));
 const BoxImg = styled(Box)(({ theme }) => ({
     position: "absolute",
@@ -78,12 +74,11 @@ const StyledTextfield2 = styled(TextField)(({ theme }) => ({
         fontSize: "16px",
         fontWeight: 400,
         letterSpacing: "0.25px",
-        [theme.breakpoints.up('sm')]: {
-            fontSize: "18px",
-        },
         width: "340px",
+        height: "50px",
         [theme.breakpoints.up('sm')]: {
             width: "600px",
+            fontSize: "18px",
         },
         [theme.breakpoints.up('md')]: {
             width: "290px",
@@ -230,7 +225,6 @@ export default function SignUpContainer() {
             )}
             <AuthWrapper>
                 <AuthContent>
-
                     <NotificationToast />
                     <form
                         onSubmit={onSubmit}
@@ -241,18 +235,24 @@ export default function SignUpContainer() {
                             flexDirection: "column",
                         }}>
                         <Link href="/">
-                            <BoxLogo sx={{ marginTop: 5 }}>
+                            <BoxLogo>
                                 <Image
                                     alt="Logo"
                                     src={Logo}
                                     style={StyledImgLogo}
                                 />
                             </BoxLogo>
+                            <BoxLogoResp>
+                                <Image
+                                    alt="Logo"
+                                    src={Logo}
+                                    style={StyledImgLogoResp}
+                                />
+                            </BoxLogoResp>
                         </Link>
-                        <Space1 />
+                        <SpaceInputs2 />
                         <Title>S&apos;inscrire</Title>
-                        <Space1 />
-                        <Space2 />
+                        <SpaceInputs2 />
                         <GoogleButtonAuth onClick={() => loginGoogle()}>
                             <FcGoogle />
                             &nbsp;
@@ -260,7 +260,7 @@ export default function SignUpContainer() {
                             &nbsp;
                             Connectez-vous avec Google
                         </GoogleButtonAuth>
-                        <Space2 />
+                        <SpaceInputs2 />
                         <BottomText>
                             OU
                         </BottomText>
@@ -272,6 +272,9 @@ export default function SignUpContainer() {
                                 id="first_name"
                                 name="first_name"
                                 onChange={onChange} />
+                            <Box sx={{ display: { xs: "flex", md: "none" } }}>
+                                <SpaceInputs2 />
+                            </Box>
                             <StyledTextfield2
                                 label="Nom"
                                 type="text"
@@ -304,7 +307,7 @@ export default function SignUpContainer() {
                                 onClick={handleClickShowPassword}
                                 onMouseDown={handleMouseDownPassword}
                                 edge="end"
-                                sx={{ position: "absolute", top: "15%", right: "5%" }}
+                                sx={{ position: "absolute", top: "10%", right: "5%" }}
                             >
                                 {showPassword ?
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -336,7 +339,7 @@ export default function SignUpContainer() {
                                 onClick={handleClickShowPassword}
                                 onMouseDown={handleMouseDownPassword}
                                 edge="end"
-                                sx={{ position: "absolute", top: "15%", right: "5%" }}
+                                sx={{ position: "absolute", top: "10%", right: "5%" }}
                             >
                                 {showPassword ?
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -379,11 +382,11 @@ export default function SignUpContainer() {
                             </FormGroup>
                         </BoxCheck>
 
-                        <Space1 />
+                        <SpaceInputs2 />
                         <BlueButtonAuth type="submit">
                             S&apos;inscire
                         </BlueButtonAuth>
-                        <Space2 />
+                        <SpaceInputs2 />
                         <BottomText sx={{ marginBottom: 5 }}>
                             Vous avez déjà un compte ? <Link href="/auth/sign-in"><LinkTextStyle>Se connecter.</LinkTextStyle></Link>
                         </BottomText>

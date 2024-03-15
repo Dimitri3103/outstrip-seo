@@ -26,6 +26,10 @@ export const StyledImgLogo = {
     width: "200px",
     height: "auto"
 }
+export const StyledImgLogoResp = {
+    width: "150px",
+    height: "auto"
+}
 export const Title = styled(Typography)(({ theme }) => ({
     fontFamily: 'DM Sans',
     fontSize: "30px",
@@ -38,7 +42,7 @@ export const Title = styled(Typography)(({ theme }) => ({
         fontSize: "40px",
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "50px",
+        fontSize: "45px",
     },
 }));
 export const SubTitle = styled(Typography)(({ theme }) => ({
@@ -47,8 +51,8 @@ export const SubTitle = styled(Typography)(({ theme }) => ({
     fontWeight: 400,
     color: "#18242B",
     textAlign: "center",
-    paddingLeft: theme.spacing(8),
-    paddingRight: theme.spacing(8),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
     [theme.breakpoints.up('sm')]: {
         fontSize: "18px",
     },
@@ -79,12 +83,11 @@ export const StyledTextfield = styled(TextField)(({ theme }) => ({
         fontSize: "16px",
         fontWeight: 400,
         letterSpacing: "0.25px",
-        [theme.breakpoints.up('sm')]: {
-            fontSize: "18px",
-        },
         width: "340px",
+        height: "50px",
         [theme.breakpoints.up('sm')]: {
             width: "600px",
+            fontSize: "18px",
         },
         '& fieldset': {
             border: "1px solid #0000001A",
@@ -141,9 +144,17 @@ export const BoxPassword = styled(Box)(({ theme }) => ({
     position: "relative"
 }));
 export const BoxLogo = styled(Box)(({ theme }) => ({
-    width: "150px",
+    width: "200px",
+    display: "flex",
     [theme.breakpoints.up('sm')]: {
-        width: "200px",
+        display: "none",
+    },
+}));
+export const BoxLogoResp = styled(Box)(({ theme }) => ({
+    width: "150px",
+    display: "flex",
+    [theme.breakpoints.up('sm')]: {
+        display: "none",
     },
 }));
 export const BoxCheck = styled(Box)(({ theme }) => ({
@@ -190,8 +201,16 @@ export const LinkTextStyle = styled('span')(({ theme }) => ({
     },
 }));
 export const Space1 = styled('div')(({ theme }) => ({
-    marginTop: theme.spacing(4),
-    marginBootom: theme.spacing(4),
+    marginTop: theme.spacing(2),
+    marginBootom: theme.spacing(2),
+    [theme.breakpoints.up('sm')]: {
+        marginTop: theme.spacing(3),
+        marginBootom: theme.spacing(3),
+    },
+    [theme.breakpoints.up('md')]: {
+        marginTop: theme.spacing(4),
+        marginBootom: theme.spacing(4),
+    },
 }));
 export const Space2 = styled('span')(({ theme }) => ({
     marginTop: theme.spacing(3),

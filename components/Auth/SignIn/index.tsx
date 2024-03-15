@@ -4,7 +4,7 @@ import { Checkbox, FormControlLabel, FormGroup, Grid, IconButton, styled } from 
 import Image from 'next/image'
 import React, { ChangeEvent, FormEvent, useState } from 'react'
 import Link from 'next/link';
-import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxCheck, BoxLogo, BoxPassword, ForgotPasswordText, GoogleButtonAuth, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledLinear, StyledStackLoading, StyledTextfield, Title } from '@/assets/styles/auth';
+import { AuthContent, AuthImgStyle, AuthWrapper, BlueButtonAuth, BottomText, BoxCheck, BoxLogo, BoxLogoResp, BoxPassword, ForgotPasswordText, GoogleButtonAuth, LinkTextStyle, Space1, Space2, StyledImgLogo, StyledImgLogoResp, StyledLinear, StyledStackLoading, StyledTextfield, Title } from '@/assets/styles/auth';
 import { useGoogleMutation, useLoginMutation } from '@/redux/features/authApiSlice';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
@@ -202,6 +202,13 @@ export default function AuthContainer() {
                                     style={StyledImgLogo}
                                 />
                             </BoxLogo>
+                            <BoxLogoResp>
+                                <Image
+                                    alt="Logo"
+                                    src={Logo}
+                                    style={StyledImgLogoResp}
+                                />
+                            </BoxLogoResp>
                         </Link>
                         <Space1 />
                         <Title>Se connecter</Title>
@@ -240,7 +247,7 @@ export default function AuthContainer() {
                                 onClick={handleClickShowPassword}
                                 onMouseDown={handleMouseDownPassword}
                                 edge="end"
-                                sx={{ position: "absolute", top: "15%", right: "5%" }}
+                                sx={{ position: "absolute", top: "10%", right: "5%" }}
                             >
                                 {showPassword ?
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
